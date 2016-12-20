@@ -24,7 +24,7 @@ public class ContainerFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootview = inflater.inflate(R.layout.fragment_layout, container, false);
 
-        String [] vineData={}; // i dont know how to retrieve the data from  into this array in ordder to display in  listview
+        String [] vineData={}; // i dont know how to retrieve the data from   into this array in ordder to display in  listview
 
         List<String> names = new ArrayList<String>(Arrays.asList(vineData));
 

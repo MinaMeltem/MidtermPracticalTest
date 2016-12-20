@@ -6,17 +6,17 @@ import java.util.List;
  * Created by C4Q on 12/19/16.
  */
 public class Data {
-    List<Records> record ;
+    List<Records> records ;
 
-    public Data(List<Records> record) {
-        this.record = record;
+    public Data(List<Records> records) {
+        this.records = records;
     }
 
     public List<Records> getRecord() {
-        return record;
+        return records;
     }
 
-    public void setRecord(List<Records> record) {
-        this.record = record;
+    public void setRecord(List<Records> records) {
+        this.records = records;
     }
 }
